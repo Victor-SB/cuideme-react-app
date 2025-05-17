@@ -14,7 +14,7 @@ function App() {
       <div className="App">
         <Brand />
         <LoginForm />
-      </div>;
+      </div>
       <img
         src={Ellipse}
         alt="ellipse"
