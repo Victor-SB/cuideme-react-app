@@ -1,31 +1,45 @@
-# Create React App
+# Cuide.Me 
+Este projeto é uma interface de **login simples** desenvolvida com **React**, hospedada na [Vercel](https://cuideme-react-app.vercel.app/).
 
-This directory is a brief example of a [Create React App](https://github.com/facebook/create-react-app) site that can be deployed to Vercel with zero configuration.
+## 🧪 Tecnologias Utilizadas
 
-## Deploy Your Own
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/) 
+- [Vercel](https://vercel.com/)
 
-Deploy your own Create React App project with Vercel.
+## 🌐 Acesso ao Projeto Online
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/framework-boilerplates/create-react-app&template=create-react-app)
+Você pode acessar a versão em produção aqui:  
+🔗 [https://cuideme-react-app.vercel.app/](https://cuideme-react-app.vercel.app/)
 
-_Live Example: https://create-react-template.vercel.app/_
+---
 
-## Available Scripts
+## 🖥️ Como Executar Localmente
 
-In the project directory, you can run:
+Siga os passos abaixo para rodar o projeto na sua máquina local:
 
-### `npm start`
+### 🔧 Pré-requisitos
 
-Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Node.js (versão 16 ou superior)
+- npm ou yarn
 
-The page will reload when you make changes. You may also see any lint errors in the console.
+### 🚀 Passo a passo
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode. See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.
-
-It correctly bundles React in production mode and optimizes the build for the best performance. The build is minified and the filenames include the hashes.
+1. **Clone o repositório**
+   ```bash
+   git clone https://github.com/Victor-SB/cuideme-react-app.git
+ 2. **Acesse a pasta do projeto**
+    ```bash
+    cd cuideme-react-app
+3.  **Instale as dependências**
+    ```bash
+    npm install
+4. **Inicie o servidor de desenvolvimento**
+    ```bash
+    npm start
+5. **Acesse no navegador**
+    ```bash
+    Abra o navegador e vá até:
+    👉 http://localhost:5173 (para Vite)
+    ou
+    👉 http://localhost:3000 (para Create React App)
