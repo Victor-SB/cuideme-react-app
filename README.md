@@ -51,10 +51,11 @@ Siga os passos abaixo para rodar o projeto na sua máquina local:
 7. **Instalar o Storybook**
     ```bash
     npx storybook@latest init
+    - escolha a opcao Minimal: Component dev only
 8. **Iniciar o Storybook**
     ```bash
    npm run storybook
 9. **Obs**
-   * Dependendo da instalacao do Storybook, pode ser que ele crie um arquivo de configuracao indesejado,
+   * Se durante a instalacao do Storybook nao ter sido escolhida a opcao "Minimal: Component dev only", vai ser criado um arquivo de configuracao indesejado,
    fazendo com que o restante dos componentes nao aparecam corretamente. Caso isso ocorra,
    delete o arquivo que foi criado em src/stories/Configure.mdx
