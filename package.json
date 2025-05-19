@@ -7,13 +7,18 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^3.0.4"
+    "web-vitals": "^3.0.4",
+    "styled-components": "^6.1.8",
+    "@storybook/react-webpack5": "^7.6.9",
+    "@storybook/addon-essentials": "^7.6.9"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "storybook": "npx start-storybook -p 6006",
+    "build-storybook": "npx build-storybook"
   },
   "eslintConfig": {
     "extends": [
